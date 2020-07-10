@@ -1,0 +1,44 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+@import "predefine";
+@import "elements";
+@import "responsive";
+
+.impress_area {
+  background-image: url("/assets/images/impress-bg.png");
+  background-size: cover;
+  padding: 290px 0 320px;
+  margin-bottom: -200px;
+  .impress_inner {
+    text-align: center;
+    max-width: 780px;
+    margin: auto;
+    h2 {
+      color: #fff;
+      font-size: 36px;
+      font-family: $title-font;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+    p {
+      color: #fff;
+      margin-bottom: 35px;
+    }
+    .primary_btn {
+      background: #fff;
+      width: auto;
+      font-size: 14px;
+      box-shadow: -14.142px 14.142px 20px 0px rgba(0, 0, 0, 0.1);
+      border-color: #fff;
+      &:hover {
+        color: #fff;
+        background: transparent;
+        border-color: #fff;
+        &:after {
+          @include border-gradient(0deg, #fff, #fff);
+        }
+      }
+    }
+  }
+}
