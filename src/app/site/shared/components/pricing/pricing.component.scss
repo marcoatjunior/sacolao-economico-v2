@@ -6,9 +6,8 @@
 @import "responsive";
 
 .price_area {
-  background-image: url("/assets/images/pricing-bg.png");
+  // background-image: url("/assets/images/pricing-bg.png");
   background-size: cover;
-  padding-top: 290px;
 }
 
 .price_item {
@@ -17,6 +16,7 @@
   border-radius: 5px;
   background: #fff;
   position: relative;
+  height: 100%;
   @include transition();
   .price_head {
     text-align: center;
@@ -37,6 +37,9 @@
     ul {
       li {
         margin-bottom: 15px;
+        padding-left: 30px;
+        text-align: left;
+        list-style: inherit;
         a {
           font-size: 14px;
           color: #666666;

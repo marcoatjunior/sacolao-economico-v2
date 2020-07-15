@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { products } from "../../constants/products";
 
 @Component({
   selector: "app-site-pricing",
@@ -6,5 +7,6 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["pricing.component.scss"],
 })
 export class PricingComponent implements OnInit {
+  products = products;
   ngOnInit() {}
 }
