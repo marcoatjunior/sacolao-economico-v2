@@ -9,3 +9,10 @@ a {
   color: #dc3545 !important;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  a {
+    bottom: 30px;
+    left: 85%;
+  }
+}
