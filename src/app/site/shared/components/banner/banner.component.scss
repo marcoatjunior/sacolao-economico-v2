@@ -7,11 +7,15 @@
 
 .home_banner_area {
   z-index: 1;
-  background: url("/assets/images/banner/banner.png") no-repeat center;
+  // background: url("/assets/images/banner/fachada.png") no-repeat center;
+  background-color: #F8F8FF;
   background-size: cover;
+  opacity: 0.75;
   .banner_inner {
     width: 100%;
     height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
     .home_right_img {
       padding-top: 260px;
       padding-bottom: 142px;

@@ -6,8 +6,9 @@
 @import "responsive";
 
 .price_area {
-  // background-image: url("/assets/images/pricing-bg.png");
+  background-color: #F8F8FF;
   background-size: cover;
+  padding: 80px 0 40px !important;
 }
 
 .price_item {
@@ -52,32 +53,6 @@
       }
     }
   }
-  .price_footer {
-    background: #fcf8ff;
-    max-width: 280px;
-    margin: 0px auto 40px;
-    border-radius: 5px;
-    padding-top: 35px;
-    padding-bottom: 40px;
-    h3 {
-      color: $title-color;
-      font-size: 72px;
-      .dlr {
-        font-size: 24px;
-        vertical-align: top;
-        padding-top: 14px;
-        display: inline-block;
-        margin-right: -10px;
-      }
-      .month {
-        font-size: 14px;
-        color: $primary-font;
-        font-family: $title-color;
-        display: inline-block;
-        text-align: left;
-      }
-    }
-  }
   &:hover {
     background: #fcf8ff;
     border: double 2px transparent;
@@ -105,49 +80,26 @@
     .price_body {
       background: #fcf8ff;
     }
-    .price_footer {
-      @extend .gradient-bg;
-      box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-      h3 {
-        color: #fff;
-        .month {
-          color: #fff;
-        }
-      }
-      .primary_btn {
-        background-image: linear-gradient(
-            to right,
-            $primary-color 0%,
-            $primary-color2 100%
-          ),
-          radial-gradient(circle at top left, $primary-color, $primary-color2);
-        background-image: -webkit-linear-gradient(
-            to right,
-            $primary-color 0%,
-            $primary-color2 100%
-          ),
-          -webkit-radial-gradient(circle at top left, $primary-color, $primary-color2);
-        background-image: -moz-linear-gradient(
-            to right,
-            $primary-color 0%,
-            $primary-color2 100%
-          ),
-          -moz-radial-gradient(circle at top left, $primary-color, $primary-color2);
-        background-image: -ms-linear-gradient(
-            to right,
-            $primary-color 0%,
-            $primary-color2 100%
-          ),
-          -ms-radial-gradient(circle at top left, $primary-color, $primary-color2);
-        background-image: -o-linear-gradient(
-            to right,
-            $primary-color 0%,
-            $primary-color2 100%
-          ),
-          -o-radial-gradient(circle at top left, $primary-color, $primary-color2);
-        background: #fff;
-        color: $title-color;
-      }
+  }
+}
+
+.cotation {
+  padding: 80px 0 80px;
+}
+
+.price_footer {
+  max-width: 280px;
+  margin: 0px auto 10px;
+  border-radius: 5px;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  @extend .gradient-bg;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  h4 {
+    color: #fff;
+    .month {
+      color: #fff;
     }
   }
 }

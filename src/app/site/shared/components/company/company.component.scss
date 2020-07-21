@@ -5,38 +5,37 @@
 @import "elements";
 @import "responsive";
 
-.impress_area {
-  background-image: url("/assets/images/company-bg.png");
-  background-size: cover;
-  padding: 350px 0 80px;
-  .impress_inner {
+.company_area {
+  background-color: #FAFAFA;
+  padding: 80px 0 80px;
+  .company_inner {
     margin-top: 100px;
     text-align: center;
     max-width: 780px;
     margin: auto;
     h2 {
-      color: #FFF;
+      color: #000;
       font-size: 36px;
       font-family: $title-font;
       font-weight: bold;
       margin-bottom: 18px;
     }
     p {
-      color: #FFF;
+      color: #000;
       margin-bottom: 35px;
     }
     .primary_btn {
-      background: #FFF;
+      background: #000;
       width: auto;
       font-size: 14px;
       box-shadow: -14.142px 14.142px 20px 0px rgba(0, 0, 0, 0.1);
-      border-color: #FFF;
+      border-color: #000;
       &:hover {
-        color: #FFF;
+        color: #000;
         background: transparent;
-        border-color: #FFF;
+        border-color: #000;
         &:after {
-          @include border-gradient(0deg, #FFF, #FFF);
+          @include border-gradient(0deg, #000, #000);
         }
       }
     }

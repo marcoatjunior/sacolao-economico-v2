@@ -5,7 +5,7 @@
 @import "elements";
 @import "responsive";
 
-.features_area {
+.locations_area {
   .main_title {
     .primary_btn {
       margin-top: 30px !important;
@@ -13,13 +13,13 @@
   }
 }
 
-.single_feature {
+.single_location {
   padding: 30px 0;
   border-bottom: 1px solid #eeeeee;
   &:last-child {
     border-bottom: 0;
   }
-  .feature_head {
+  .location_head {
     position: relative;
     margin-bottom: 15px;
     span.lnr {
@@ -36,7 +36,7 @@
       padding-left: 60px;
     }
   }
-  .feature_content {
+  .location_content {
     p {
       margin: 0;
     }

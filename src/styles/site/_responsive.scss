@@ -157,45 +157,6 @@
 		}
 	}
 
-	/* Start Big Features Area css
-	============================================================================================ */
-	.big_features{
-		.features_content{
-			.big_f_left {
-				text-align: center;
-				img{
-					max-width: 350px;
-					margin-bottom: 50px;
-					margin-top: 50px;
-				}
-			}
-			p{
-				max-width: 500px;
-			}
-			.border-line, .shape1, .shape2, .shape3{
-				display: none;
-			}
-			.bottom-features{
-				.common_style{
-					.primary_btn{
-						margin-bottom: 50px;
-					}
-				}
-				.big_f_left img{
-					margin-bottom: 0px;
-				}
-				.border-line, .shape1, .shape2, .shape3{
-					display: none;
-				}
-			}
-			.common_style{
-				p{
-					max-width: 600px;
-				}
-			}
-		}
-	}
-
 	/* Price Area css
 	============================================================================================ */
 	.price_area{
@@ -206,7 +167,7 @@
 
 	/* Start Testimonial Area css
 	============================================================================================ */
-	.features_page{
+	.locations_page{
 		&.testimonial_area{
 			padding-top: 80px;
 		}
@@ -226,9 +187,9 @@
 		}
 	}
 
-	/* Impress Area css
+	/* Company Area css
 	============================================================================================ */
-	.impress_area{
+	.company_area{
 		padding: 80px 0;
 		background-image: none;
 		margin-bottom: 0;
@@ -325,10 +286,10 @@
 			display: none;
 		}
 	}
-	/* Start Features Area css
+	/* Start locations Area css
 	============================================================================================ */
-	.features_area{
-		.left_features{
+	.locations_area{
+		.left_locations{
 			display: none;
 		}
 	}
@@ -348,10 +309,10 @@
 		}
 	}
 
-	/* Start Big Features Area css
+	/* Start Big locations Area css
 	============================================================================================ */
-	.big_features{
-		.features_content{
+	.big_locations{
+		.locations_content{
 			.big_f_left {
 				img{
 					max-width: 250px;
@@ -563,17 +524,17 @@
 			}
 		}
 	}
-	/* Start Features Area css
+	/* Start locations Area css
 	============================================================================================ */
-	.features_area{
-		.left_features img{
+	.locations_area{
+		.left_locations img{
 			max-width: 500px;
 		}
 	}
 
-	/* Start Big Features Area css
+	/* Start Big locations Area css
 	============================================================================================ */
-	.big_features{
+	.big_locations{
 		.shape2 {
 			left: 48%;
 			margin-left: -19px;

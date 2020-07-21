@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="price_inner row justify-content-center">
-      <div class="col-6 mb-3" *ngFor="let basket of product.baskets">
+      <div class="col-md-6 mb-3" *ngFor="let basket of product.baskets">
         <div class="price_item">
           <div class="price_head">
             <h4>{{ basket.name }}</h4>
@@ -18,10 +18,15 @@
               <li>{{ item }}</li>
             </ul>
           </div>
-          <div class="price_footer">
-            <h4>preço sob consulta</h4>
-            <!-- <a class="primary_btn" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=marisacolao@hotmail.com" target="_blank"><span>Solicitar</span></a> -->
-          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row cotation">
+    <div class="col-12">
+      <div class="text-center">
+        <div class="price_footer" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=marisacolao@hotmail.com')">
+          <h4>solicitar cotação</h4>
         </div>
       </div>
     </div>
