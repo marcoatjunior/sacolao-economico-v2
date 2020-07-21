@@ -8,12 +8,14 @@ import { LocationComponent } from "./shared/components/location/location.compone
 import { PricingComponent } from "./shared/components/pricing/pricing.component";
 import { CompanyComponent } from "./shared/components/company/company.component";
 import { FooterComponent } from "./shared/components/footer/footer.component";
+import { CardComponent } from './shared/components/card/card.component';
 
 @NgModule({
   imports: [CommonModule, SiteRoutingModule],
   declarations: [
     SiteComponent,
     HeaderComponent,
+    CardComponent,
     BannerComponent,
     LocationComponent,
     PricingComponent,
