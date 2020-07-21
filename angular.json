@@ -3,7 +3,7 @@
   "version": 1, 
   "newProjectRoot": "projects",
   "projects": {
-    "y": {
+    "sacolao-economico-v2": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/y",
+            "outputPath": "dist/sacolao-economico-v2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "y:build"
+            "browserTarget": "sacolao-economico-v2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "y:build:production"
+              "browserTarget": "sacolao-economico-v2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "y:build"
+            "browserTarget": "sacolao-economico-v2:build"
           }
         },
         "test": {
@@ -124,15 +124,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "y:serve"
+            "devServerTarget": "sacolao-economico-v2:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "y:serve:production"
+              "devServerTarget": "sacolao-economico-v2:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "y"
+  "defaultProject": "sacolao-economico-v2"
 }
