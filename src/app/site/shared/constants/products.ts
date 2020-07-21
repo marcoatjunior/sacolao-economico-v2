@@ -1,5 +1,6 @@
 export const products = [
   {
+    id: 'basic-baskets',
     type: "Cestas básicas",
     baskets: [
       {
@@ -100,6 +101,7 @@ export const products = [
     ],
   },
   {
+    id: 'ranches',
     type: "Ranchos",
     baskets: [
       {
@@ -131,6 +133,7 @@ export const products = [
     ],
   },
   {
+    id: 'cleaning',
     type: "Higiene e limpeza",
     baskets: [
       {
