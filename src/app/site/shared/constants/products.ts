@@ -7,7 +7,7 @@ export const products = [
         name: "Econômica",
         items: [
           "4Kg Arroz Branco T-1",
-          "2Kg Açúcar Refinado Especial",
+          "1Kg Açúcar Refinado Especial",
           "1Kg Farinha de Trigo Especial",
           "1Kg de Feijão Preto T-1",
           "1Kg Sal Refinado",
